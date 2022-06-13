@@ -1,7 +1,7 @@
 <html>
 <head>
-	<meta charset="uft-8">
-	<title>Gugudan</title>
+  <meta charset="uft-8">
+  <title>Gugudan</title>
 </head>
 <body>
 <div id="root"></div>
@@ -13,72 +13,72 @@
 <script type="text/babel">
 
   class Gugudan extends React.Component {
-		constructor(props) {
-			super(props);
-			this.state={
-				first: Math.ceil(Math.random() * 9),
-				second: Math.ceil(Math.random() * 9),
-				value: "",
-				result: "",
-			}
-		}
+    constructor(props) {
+      super(props);
+      this.state={
+        first: Math.ceil(Math.random() * 9),
+        second: Math.ceil(Math.random() * 9),
+        value: "",
+        result: "",
+      }
+    }
 
-		onSubmit = (e) => {
-			e.preventDefault();
-			if (parseInt(this.state.value) === (this.state.first * this.state.second)) {
-				this.setState((prevState) => {
-					return {
-						result: `정답 : ${prevState.first} X ${prevState.second} = ${prevState.first * prevState.second}`,
-						first: Math.ceil(Math.random() * 9),
-						second: Math.ceil(Math.random() * 9),
-						value: "",
-					};
-				})
-				this.input.focus();
+    onSubmit = (e) => {
+      e.preventDefault();
+      if (parseInt(this.state.value) === (this.state.first * this.state.second)) {
+        this.setState((prevState) => {
+          return {
+            result: `정답 : ${prevState.first} X ${prevState.second} = ${prevState.first * prevState.second}`,
+            first: Math.ceil(Math.random() * 9),
+            second: Math.ceil(Math.random() * 9),
+            value: "",
+          };
+        })
+        this.input.focus();
 
-				return;
-			}
+        return;
+      }
 
-			this.setState((prevState) => {
-				return {
-					result: `땡! 정답 : ${prevState.first} X ${prevState.second} = ${prevState.first * prevState.second}`,
-					first: Math.ceil(Math.random() * 9),
-					second: Math.ceil(Math.random() * 9),
-					value: "",
-				};
-			})
-		}
+      this.setState((prevState) => {
+        return {
+          result: `땡! 정답 : ${prevState.first} X ${prevState.second} = ${prevState.first * prevState.second}`,
+          first: Math.ceil(Math.random() * 9),
+          second: Math.ceil(Math.random() * 9),
+          value: "",
+        };
+      })
+    }
 
-		onChange = (e) => {
-			this.setState({ value: e.target.value })
-		}
+    onChange = (e) => {
+      this.setState({ value: e.target.value })
+    }
 
-		input;
+    input;
 
-		render() {
-			return (<>
-				<div>{this.state.first} 곱하기 {this.state.second}는</div>
-				<form onSubmit={this.onSubmit}>
-					<input
-						ref={(c) => {this.input = c;}}
-						type="number"
-						value={this.state.value}
-						onChange={this.onChange}
-					/>
-					<button>입력</button>
-				</form>
-				<div>{this.state.result}</div>
-			</>)
-		}
-	}
+    render() {
+      return (<>
+        <div>{this.state.first} 곱하기 {this.state.second}는</div>
+        <form onSubmit={this.onSubmit}>
+          <input
+            ref={(c) => {this.input = c;}}
+            type="number"
+            value={this.state.value}
+            onChange={this.onChange}
+          />
+          <button>입력</button>
+        </form>
+        <div>{this.state.result}</div>
+      </>)
+    }
+  }
 
 </script>
 
 <script type="text/babel">
-	ReactDOM.createRoot(document.querySelector("#root")).render(
-		<Gugudan />
-	); //리액트 18버전
-	// ReactDOM.render(<Gugudan />, document.querySelector("#root")); // 리액트 17버전 코드
+  ReactDOM.createRoot(document.querySelector("#root")).render(
+    <Gugudan />
+  ); //리액트 18버전
+  // ReactDOM.render(<Gugudan />, document.querySelector("#root")); // 리액트 17버전 코드
 </script>
 </body>
 </html>

@@ -1,7 +1,7 @@
 <html>
 <head>
-	<meta charset="uft-8">
-	<title>Gugudan</title>
+  <meta charset="uft-8">
+  <title>Gugudan</title>
 </head>
 <body>
 <div id="root"></div>
@@ -10,80 +10,80 @@
 <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 <script type="text/babel">
 
-	const Gugudan = () => {
-		const [first, setFirst] = React.useState(Math.ceil(Math.random() * 9));
-		const [second, setSecond] = React.useState(Math.ceil(Math.random() * 9));
-		const [value, setValue] = React.useState("");
-		const [result, setResult] = React.useState("");
+  const Gugudan = () => {
+    const [first, setFirst] = React.useState(Math.ceil(Math.random() * 9));
+    const [second, setSecond] = React.useState(Math.ceil(Math.random() * 9));
+    const [value, setValue] = React.useState("");
+    const [result, setResult] = React.useState("");
 
-		const inputRef = React.useRef(null);
+    const inputRef = React.useRef(null);
 
-		const onSubmit = (e) => {
-			e.preventDefault();
-			if (parseInt(value) === (first * second)) {
-				setResult(`Right! ${first} X ${second} = ${first * second}`);
-				setFirst(Math.ceil(Math.random() * 9));
-				setSecond(Math.ceil(Math.random() * 9));
-				setValue(""),
+    const onSubmit = (e) => {
+      e.preventDefault();
+      if (parseInt(value) === (first * second)) {
+        setResult(`Right! ${first} X ${second} = ${first * second}`);
+        setFirst(Math.ceil(Math.random() * 9));
+        setSecond(Math.ceil(Math.random() * 9));
+        setValue(""),
 
-				inputRef.current.focus();
+        inputRef.current.focus();
 
-				return;
-			}
+        return;
+      }
 
-			setResult(`Wrong! ${first} X ${second} = ${first * second}`);
-			setFirst(Math.ceil(Math.random() * 9));
-			setSecond(Math.ceil(Math.random() * 9));
-			setValue("");
-		}
+      setResult(`Wrong! ${first} X ${second} = ${first * second}`);
+      setFirst(Math.ceil(Math.random() * 9));
+      setSecond(Math.ceil(Math.random() * 9));
+      setValue("");
+    }
 
-		return (
-			<>
-			<div style={{
-				display: "flex",
-				flexWrap: "wrap",
-				maxWidth: "100vh",
-				minHeight: "100vh",
-				justifyContent: "center",
-				alignItems: "center",
-				alignContent: "center",
-				margin: "0 auto",
-			}}>
-				<div style={{fontSize: "50px", fontWeight: "bold",}}>
-					{first} X {second} =
-				</div>
-				<form onSubmit={onSubmit}>
-					<input
-						style={{
-							border: "none",
-							borderBottom: "solid 5px black",
-							width: "150px",
-							height: "70px",
-							margin: "50px",
-							outline: "none",
-							fontSize: "50px",
-						}}
-						ref={inputRef}
-						type="number"
-						value={value}
-						onChange={(e) => setValue(e.target.value)}
-					/>
-					<button style={{
-							border: "none",
-							height: "70px",
-							fontSize: "25px",
-						}}>ENTER</button>
-				</form>
-				<div style={{transition: "0.4s",fontSize: "50px", fontWeight: "bold"}}>{result}</div>
-			</div>
-			</>)
-	}
+    return (
+      <>
+      <div style={{
+        display: "flex",
+        flexWrap: "wrap",
+        maxWidth: "100vh",
+        minHeight: "100vh",
+        justifyContent: "center",
+        alignItems: "center",
+        alignContent: "center",
+        margin: "0 auto",
+      }}>
+        <div style={{fontSize: "50px", fontWeight: "bold",}}>
+          {first} X {second} =
+        </div>
+        <form onSubmit={onSubmit}>
+          <input
+            style={{
+              border: "none",
+              borderBottom: "solid 5px black",
+              width: "150px",
+              height: "70px",
+              margin: "50px",
+              outline: "none",
+              fontSize: "50px",
+            }}
+            ref={inputRef}
+            type="number"
+            value={value}
+            onChange={(e) => setValue(e.target.value)}
+          />
+          <button style={{
+              border: "none",
+              height: "70px",
+              fontSize: "25px",
+            }}>ENTER</button>
+        </form>
+        <div style={{transition: "0.4s",fontSize: "50px", fontWeight: "bold"}}>{result}</div>
+      </div>
+      </>)
+  }
 </script>
 
 <script type="text/babel">
-	ReactDOM.createRoot(document.querySelector("#root")).render(
-		<Gugudan />
-	);
+  ReactDOM.createRoot(document.querySelector("#root")).render(
+    <Gugudan />
+  );
 </script>
 </body>
 </html>
