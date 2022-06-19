@@ -3,7 +3,7 @@ const { webpack } = require('webpack');
 const RefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin');
 
 module.exports = {
-  mode: 'development',
+  mode: 'production',
   devtool: 'eval', // hidden-source-map,
   resolve: {
     extensions: ['.jsx', '.js'],
@@ -33,7 +33,7 @@ module.exports = {
     }],
   },
   plugins: [
-    new RefreshWebpackPlugin()
+    new RefreshWebpackPlugin(),
   ],
 
   output: {
