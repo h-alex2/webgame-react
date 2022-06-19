@@ -1,0 +1,24 @@
+{
+  "name": "gugudan",
+  "version": "1.0.0",
+  "description": "- `<div></div>` 대신 fragment `<></>`로 묶어줄 수 있다.\r ___",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "babel-loader": "^8.2.5",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
