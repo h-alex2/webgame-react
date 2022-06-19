@@ -39,7 +39,17 @@ ___
     </>)
   }
 ```
-1, 2번으로 썼을 때는 this.onChange에 this를 bind해주어야 한다.
+1, 2번으로 썼을 때는 this.onChange에 this를 bind해주어야 한다. 또는  
+
+constructor 안에서 this를 bind해주어야 한다.
+```js
+constructor {
+  ...
+  this.onChange = this.onChange.bind(this);
+}
+```
+
+화살표 함수가 bind(this)를 해준다.
 
 ```js
   onChange = (e) => {
