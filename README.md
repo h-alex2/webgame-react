@@ -3,8 +3,6 @@ Creating a simple web game with React.
 
 [Web game List(Click!)](https://h-alex2.github.io/webgame-react/)
 ---
-- class버전, 함수버전으로 정리
-- 배운 것 노트
 
 ## 구구단 정리
 - [fragment](https://github.com/h-alex2/webgame-react/blob/master/1.%EA%B5%AC%EA%B5%AC%EB%8B%A8/README.md#fragment)
@@ -31,3 +29,12 @@ Creating a simple web game with React.
 - [리렌더링](https://github.com/h-alex2/webgame-react/blob/master/3.%EC%88%AB%EC%9E%90%EC%95%BC%EA%B5%AC/README.md#%EB%A6%AC%EB%A0%8C%EB%8D%94%EB%A7%81)
 - [class에서는 pureComponent 함수에서는 memo](https://github.com/h-alex2/webgame-react/blob/master/3.%EC%88%AB%EC%9E%90%EC%95%BC%EA%B5%AC/README.md#class%EC%97%90%EC%84%9C%EB%8A%94-purecomponent-%ED%95%A8%EC%88%98%EC%97%90%EC%84%9C%EB%8A%94-memo)
 - [class에서도 useRef 처럼 쓰기 => creatRef](https://github.com/h-alex2/webgame-react/blob/master/3.%EC%88%AB%EC%9E%90%EC%95%BC%EA%B5%AC/README.md#class%EC%97%90%EC%84%9C%EB%8F%84-useref-%EC%B2%98%EB%9F%BC-%EC%93%B0%EA%B8%B0--creatref)
+
+
+
+## 반응 속도 체크 정리
+- []()
+- []()
+- []()
+- []()
+- []()
