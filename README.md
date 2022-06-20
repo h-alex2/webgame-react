@@ -33,8 +33,9 @@ Creating a simple web game with React.
 
 
 ## 반응 속도 체크 정리
-- []()
-- []()
-- []()
-- []()
-- []()
+- [react에서 null : 태그 없음 의미](https://github.com/h-alex2/webgame-react/blob/master/4.%EB%B0%98%EC%9D%91%EC%86%8D%EB%8F%84%EC%B2%B4%ED%81%AC/README.md#null)
+- [react 조건문](https://github.com/h-alex2/webgame-react/blob/master/4.%EB%B0%98%EC%9D%91%EC%86%8D%EB%8F%84%EC%B2%B4%ED%81%AC/README.md#react-%EC%A1%B0%EA%B1%B4%EB%AC%B8)
+- [setTimeout](https://github.com/h-alex2/webgame-react/blob/master/4.%EB%B0%98%EC%9D%91%EC%86%8D%EB%8F%84%EC%B2%B4%ED%81%AC/README.md#settimeout)
+- ["useRef" class this를 hooks에서는 useRef로 표현](https://github.com/h-alex2/webgame-react/blob/master/4.%EB%B0%98%EC%9D%91%EC%86%8D%EB%8F%84%EC%B2%B4%ED%81%AC/README.md#useref-class-this%EB%A5%BC-hooks%EC%97%90%EC%84%9C%EB%8A%94-useref%EB%A1%9C-%ED%91%9C%ED%98%84%ED%95%9C%EB%8B%A4)
+- [return에서 if, for문 사용하는 방법](https://github.com/h-alex2/webgame-react/blob/master/4.%EB%B0%98%EC%9D%91%EC%86%8D%EB%8F%84%EC%B2%B4%ED%81%AC/README.md#return%EC%97%90%EC%84%9C-if-for%EB%AC%B8-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95)
+- [return에서 배열 가능](https://github.com/h-alex2/webgame-react/blob/master/4.%EB%B0%98%EC%9D%91%EC%86%8D%EB%8F%84%EC%B2%B4%ED%81%AC/README.md#return%EC%97%90%EC%84%9C-%EB%B0%B0%EC%97%B4-%EA%B0%80%EB%8A%A5)
