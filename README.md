@@ -9,7 +9,7 @@ Creating a simple web game with React.
 ## 구구단 정리
 - [fragment](https://github.com/h-alex2/webgame-react/blob/master/1.%EA%B5%AC%EA%B5%AC%EB%8B%A8/README.md#fragment)
 - [React 18버전 업데이트](https://github.com/h-alex2/webgame-react/blob/master/1.%EA%B5%AC%EA%B5%AC%EB%8B%A8/README.md#react-18%EB%B2%84%EC%A0%84-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8%EB%A1%9C)
-- [form이 있으면 onSubmit, form이 없으면 onClick]
+- form이 있으면 onSubmit, form이 없으면 onClick
 - [class에서 메서드 쓸 때는 무조건 화살표함수](https://github.com/h-alex2/webgame-react/blob/master/1.%EA%B5%AC%EA%B5%AC%EB%8B%A8/README.md#class%EC%97%90%EC%84%9C-%EB%A9%94%EC%84%9C%EB%93%9C-%EC%93%B8-%EB%95%8C%EB%8A%94-%EB%AC%B4%EC%A1%B0%EA%B1%B4-%ED%99%94%EC%82%B4%ED%91%9C%ED%95%A8%EC%88%98-%EC%93%B0%EA%B8%B0-function%EC%9C%BC%EB%A1%9C-%EC%8D%A8%EB%8F%84-%EB%90%98%EC%A7%80%EB%A7%8C-bind%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%B4%EC%95%BC%ED%95%A8-this%EA%B0%80-%EB%8B%AC%EB%9D%BC%EC%A0%B8%EC%84%9C)
 - [class - constructor 생략가능](https://github.com/h-alex2/webgame-react/blob/master/1.%EA%B5%AC%EA%B5%AC%EB%8B%A8/README.md#class---constructor)
 - [this.setState(() => {}) prevState](https://github.com/h-alex2/webgame-react/blob/master/1.%EA%B5%AC%EA%B5%AC%EB%8B%A8/README.md#thissetstate--)
@@ -25,7 +25,7 @@ Creating a simple web game with React.
 - [props](https://github.com/h-alex2/webgame-react/blob/master/3.%EC%88%AB%EC%9E%90%EC%95%BC%EA%B5%AC/README.md#props)
 - [배열에 push 쓰지 말 것](https://github.com/h-alex2/webgame-react/blob/master/3.%EC%88%AB%EC%9E%90%EC%95%BC%EA%B5%AC/README.md#push-x)
 - [구조분해](https://github.com/h-alex2/webgame-react/blob/master/3.%EC%88%AB%EC%9E%90%EC%95%BC%EA%B5%AC/README.md#%EA%B5%AC%EC%A1%B0%EB%B6%84%ED%95%B4)
-- [this를 안쓰는 메서드는 class 밖에 뺄 수 있다.]()
+- this를 안쓰는 메서드는 class 밖에 뺄 수 있다.
 - [옛날 state로 현재 state를 만들 때는 함수형으로 쓰기](https://github.com/h-alex2/webgame-react/blob/master/3.%EC%88%AB%EC%9E%90%EC%95%BC%EA%B5%AC/README.md#%EC%98%9B%EB%82%A0-state%EB%A1%9C-%ED%98%84%EC%9E%AC-state%EB%A5%BC-%EB%A7%8C%EB%93%A4-%EB%95%8C%EB%8A%94-%ED%95%A8%EC%88%98%ED%98%95%EC%9C%BC%EB%A1%9C-%EC%93%B0%EA%B8%B0)
 - [webpack 배포](https://github.com/h-alex2/webgame-react/blob/master/3.%EC%88%AB%EC%9E%90%EC%95%BC%EA%B5%AC/README.md#webpack-%EB%B0%B0%ED%8F%AC)
 - [리렌더링](https://github.com/h-alex2/webgame-react/blob/master/3.%EC%88%AB%EC%9E%90%EC%95%BC%EA%B5%AC/README.md#%EB%A6%AC%EB%A0%8C%EB%8D%94%EB%A7%81)
