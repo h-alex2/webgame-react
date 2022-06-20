@@ -1,9 +1,9 @@
-## Note
+# Note
 
-### value와 onChange는 세트다.
+## value와 onChange는 세트다.
 value를 넣을거면 onChange를 넣어야한다. 아니면 defaultValue 넣어야한다.
 
-### webpack 자동 빌드 - react refresh
+## webpack 자동 빌드 - react refresh
 `npm i react-refresh @pmmmwh/react-refresh-webpack-plugin -D`
 
 - 서버 만들기

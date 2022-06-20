@@ -1,20 +1,20 @@
-## Notes
+# Notes
 
-### fragment
+## fragment
   - `<div></div>` 대신 fragment `<></>`로 묶어줄 수 있다.
 ___
 
-### React 18버전 업데이트로
+## React 18버전 업데이트로
   - 17버전 : `ReactDOM.render(<component />, document.querySelector("#root"));`
   - 18버전 : `ReactDOM.createRoot(document.querySelector("#root")).render(<component />);`
 ___
 
 
-### form이 있으면 onSubmit form이 없으면 onClick
+## form이 있으면 onSubmit form이 없으면 onClick
 ___
 
 
-### class에서 메서드 쓸 때는 무조건 화살표함수 쓰기 function으로 써도 되지만 bind를 사용해야함 (this가 달라져서)
+## class에서 메서드 쓸 때는 무조건 화살표함수 쓰기 function으로 써도 되지만 bind를 사용해야함 (this가 달라져서)
 
 1. 
 ```js
@@ -70,7 +70,7 @@ constructor {
 ___
 
 
-### class - constructor
+## class - constructor
 - constructor 어렵다면 빼도 됨
 
 ```js
@@ -101,7 +101,7 @@ class Gugudan extends React.Component {
 - 이 방법을 더 많이 쓴다.
 ---
 
-### this.setState(() => {})
+## this.setState(() => {})
 setState에서 state를 return 해줄 수 있게 함수를 쓸 수 있다.
 - state의 이전 값을 쓸 수 있다.
 - 예전 state의 값으로 새로운 state값을 만들 때는 return 해주는 함수를 쓰는 게 좋다.
