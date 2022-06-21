@@ -47,3 +47,15 @@ Creating a simple web game with React.
 - [useEffect](https://github.com/h-alex2/webgame-react/blob/master/5.%EA%B0%80%EC%9C%84%EB%B0%94%EC%9C%84%EB%B3%B4/README.md#useeffect)
 - [class와 hooks의 LifeCycle 차이점](https://github.com/h-alex2/webgame-react/blob/master/5.%EA%B0%80%EC%9C%84%EB%B0%94%EC%9C%84%EB%B3%B4/README.md#class%EC%99%80-hooks%EC%9D%98-lifecycle-%EC%B0%A8%EC%9D%B4%EC%A0%90)
 - [custom Hooks](https://github.com/h-alex2/webgame-react/blob/master/5.%EA%B0%80%EC%9C%84%EB%B0%94%EC%9C%84%EB%B3%B4/README.md#custom-hooks)
+
+## 로또추첨기 정리
+- 반복문을 기점으로 분리
+- [HOC : Higher Order Component](https://github.com/h-alex2/webgame-react/blob/master/6.%EB%A1%9C%EB%98%90%EC%B6%94%EC%B2%A8%EA%B8%B0/README.md#hoc--higher-order-component)
+- [setTimeout... 메모리 누수 문제](https://github.com/h-alex2/webgame-react/blob/master/6.%EB%A1%9C%EB%98%90%EC%B6%94%EC%B2%A8%EA%B8%B0/README.md#settimeout-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EB%88%84%EC%88%98-%EB%AC%B8%EC%A0%9C)
+- [componentDidUpdate(prevProps, prevState)](https://github.com/h-alex2/webgame-react/blob/master/6.%EB%A1%9C%EB%98%90%EC%B6%94%EC%B2%A8%EA%B8%B0/README.md#componentdidupdateprevprops-prevstate)
+- [useEffect와 componentDid.. 비교](https://github.com/h-alex2/webgame-react/blob/master/6.%EB%A1%9C%EB%98%90%EC%B6%94%EC%B2%A8%EA%B8%B0/README.md#componentdidupdateprevprops-prevstate)
+- [useMemo](https://github.com/h-alex2/webgame-react/blob/master/6.%EB%A1%9C%EB%98%90%EC%B6%94%EC%B2%A8%EA%B8%B0/README.md#usememo)
+- [useCallback](https://github.com/h-alex2/webgame-react/blob/master/6.%EB%A1%9C%EB%98%90%EC%B6%94%EC%B2%A8%EA%B8%B0/README.md#usecallback)
+- [hooks는 순서가 중요하다.](https://github.com/h-alex2/webgame-react/blob/master/6.%EB%A1%9C%EB%98%90%EC%B6%94%EC%B2%A8%EA%B8%B0/README.md#hooks%EB%8A%94-%EC%88%9C%EC%84%9C%EA%B0%80-%EC%A4%91%EC%9A%94%ED%95%98%EB%8B%A4)
+- [useEffect - componentDidMount로만 쓰기](https://github.com/h-alex2/webgame-react/blob/master/6.%EB%A1%9C%EB%98%90%EC%B6%94%EC%B2%A8%EA%B8%B0/README.md#useeffect---componentdidmount%EB%A1%9C%EB%A7%8C-%EC%93%B0%EA%B8%B0)
+- [useEffect - componentDidUpdate로만 쓰기 (꼼수)](https://github.com/h-alex2/webgame-react/blob/master/6.%EB%A1%9C%EB%98%90%EC%B6%94%EC%B2%A8%EA%B8%B0/README.md#useeffect---componentdidupdate%EB%A1%9C%EB%A7%8C-%EC%93%B0%EA%B8%B0-%EA%BC%BC%EC%88%98)
