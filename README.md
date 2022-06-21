@@ -16,6 +16,7 @@ Creating a simple web game with React.
 ## 끝말잇기 정리
 - [value와 onChange는 세트다.](https://github.com/h-alex2/webgame-react/blob/master/2.%EB%81%9D%EB%A7%90%EC%9E%87%EA%B8%B0/README.md#value%EC%99%80-onchange%EB%8A%94-%EC%84%B8%ED%8A%B8%EB%8B%A4)
 - [webpack 자동 빌드 - react refresh](https://github.com/h-alex2/webgame-react/blob/master/2.%EB%81%9D%EB%A7%90%EC%9E%87%EA%B8%B0/README.md#webpack-%EC%9E%90%EB%8F%99-%EB%B9%8C%EB%93%9C---react-refresh)
+- [controlled input, uncontrolled input](https://github.com/h-alex2/webgame-react/blob/master/2.%EB%81%9D%EB%A7%90%EC%9E%87%EA%B8%B0/README.md#controlled-input-uncontrolled-input)
 
 
 ## 숫자 야구 정리
