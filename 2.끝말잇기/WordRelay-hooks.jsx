@@ -2,28 +2,23 @@ import React, { useState, useRef } from "react";
 
 const WordRelayHooks = () => {
 	const [word, setWord] = useState("알렉스");
-	const [value, setValue] = useState("");
 	const [result, setResult] = useState("");
 	const inputRef = useRef(null);
 
 	const onSubmitForm = (e) => {
 		e.preventDefault();
 
-		if (word[word.length - 1] === value[0]) {
+		if (word[word.length - 1] === e.target.children.word.value[0]) {
 			setResult("딩동댕");
-			setWord(value);
-			setValue("");
+			setWord(e.target.children.word.value);
+      e.target.children.word.value = "";
 			inputRef.current.focus();
 			return;
 		}
 
 		setResult("땡");
-		setValue("");
+    e.target.children.word.value = "";
 		inputRef.current.focus();
-	}
-
-	const onChangeInput = (e) => {
-		setValue(e.target.value);
 	}
 
 	return (
@@ -31,9 +26,8 @@ const WordRelayHooks = () => {
 			<div>{word}</div>
 			<form onSubmit={onSubmitForm}>
 				<input
+          id="word"
 					ref={inputRef}
-					value={value}
-					onChange={onChangeInput}
 				/>
 				<button>ENTER</button>
 			</form>
