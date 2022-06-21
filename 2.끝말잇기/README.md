@@ -73,3 +73,106 @@ module.exports = {
 - `devServer`
 
 dist는 가상 경로라고 생각하면 된다.
+
+## controlled input, uncontrolled input
+1. controlled input
+```js
+<input
+  ref={inputEl}
+  value={value}
+  onChange={...}
+/>
+```
+- react는 기본적으로 controlled input
+- 이걸 더 권장하기는 한다.
+
+2. uncontrolled input
+```js
+<input ref={inputEl} />
+```
+- 기본적인 html 같은 input 형태
+- value가 submit에서만 쓰이는 경우에는 이걸 써도 된다.
+
+```js
+	const onSubmitForm = (e) => {
+		e.preventDefault();
+
+		if (word[word.length - 1] === value[0]) {
+			setResult("딩동댕");
+			setWord(value);
+			inputRef.current.focus();
+			return;
+		}
+
+		setResult("땡");
+		setValue("");
+		inputRef.current.focus();
+	}
+
+	const onChangeInput = (e) => {
+		setValue(e.target.value);
+	}
+
+  <input
+    ref={inputRef}
+    value={value}
+    onChange={onChangeInput}
+  />
+```
+
+
+---
+```js
+	const onSubmitForm = (e) => {
+		e.preventDefault();
+
+		if (word[word.length - 1] === value[0]) {
+			setResult("딩동댕");
+			setWord(value);
+ 			setValue("");
+			inputRef.current.focus();
+			return;
+		}
+
+		setResult("땡");
+		setValue("");
+		inputRef.current.focus();
+	}
+
+	const onChangeInput = (e) => {
+		setValue(e.target.value);
+	}
+```
+```js
+	const onSubmitForm = (e) => {
+		e.preventDefault();
+
+		if (word[word.length - 1] === e.target.children.word.value[0]) {
+			setResult("딩동댕");
+			setWord(e.target.children.word.value);
+      e.target.children.word.value = "";
+			inputRef.current.focus();
+			return;
+		}
+
+		setResult("땡");
+    e.target.children.word.value = "";
+		inputRef.current.focus();
+	}
+
+	return (
+		<>
+			<div>{word}</div>
+			<form onSubmit={onSubmitForm}>
+				<input
+          id="word"
+					ref={inputRef}
+				/>
+				<button>ENTER</button>
+			</form>
+			<div>{result}</div>
+		</>
+	);
+};
+```
+- 이렇게 바꿀 수 있다.
