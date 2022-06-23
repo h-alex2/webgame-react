@@ -1,3 +1,27 @@
 <!doctype html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>WEBGAME</title><style>body {
       text-align: center;
-    }</style><script defer="defer" src="./app.js"></script></head><body><div id="root"></div><script src="./dist/app.js"></script></body></html>
+    }
+    #screen {
+      width: 300px;
+      height: 200px;
+      text-align: center;
+      user-select: none;
+      margin: 0 auto;
+    }
+    #screen.waiting {
+      background-color: aqua;
+    }
+    #screen.ready {
+      background-color: red;
+      color: white;
+    }
+    #screen.now {
+      background-color: greenyellow;
+    }
+
+    #computer {
+      width: 142px;
+      height: 200px;
+      background-position: 0 0;
+      margin: 0 auto;
+    }</style><script defer="defer" src="bundle.js"></script></head><body><div id="root"></div></body></html>
