@@ -60,3 +60,15 @@ Creating a simple web game with React.
 - [hooks는 순서가 중요하다.](https://github.com/h-alex2/webgame-react/blob/master/6.%EB%A1%9C%EB%98%90%EC%B6%94%EC%B2%A8%EA%B8%B0/README.md#hooks%EB%8A%94-%EC%88%9C%EC%84%9C%EA%B0%80-%EC%A4%91%EC%9A%94%ED%95%98%EB%8B%A4)
 - [useEffect - componentDidMount로만 쓰기](https://github.com/h-alex2/webgame-react/blob/master/6.%EB%A1%9C%EB%98%90%EC%B6%94%EC%B2%A8%EA%B8%B0/README.md#useeffect---componentdidmount%EB%A1%9C%EB%A7%8C-%EC%93%B0%EA%B8%B0)
 - [useEffect - componentDidUpdate로만 쓰기 (꼼수)](https://github.com/h-alex2/webgame-react/blob/master/6.%EB%A1%9C%EB%98%90%EC%B6%94%EC%B2%A8%EA%B8%B0/README.md#useeffect---componentdidupdate%EB%A1%9C%EB%A7%8C-%EC%93%B0%EA%B8%B0-%EA%BC%BC%EC%88%98)
+
+## 틱택토 정리
+- [useReducer](https://github.com/h-alex2/webgame-react/tree/master/7.%ED%8B%B1%ED%83%9D%ED%86%A0#usereducer)
+- dispatch
+- action
+
+
+## 지뢰찾기 정리
+- [context API](https://github.com/h-alex2/webgame-react/tree/master/8.%EC%A7%80%EB%A2%B0%EC%B0%BE%EA%B8%B0#context-api)
+- [createContext](https://github.com/h-alex2/webgame-react/tree/master/8.%EC%A7%80%EB%A2%B0%EC%B0%BE%EA%B8%B0#createcontext)
+- [context API 성능최적화 어려움](https://github.com/h-alex2/webgame-react/tree/master/8.%EC%A7%80%EB%A2%B0%EC%B0%BE%EA%B8%B0#context-api-%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94-%EC%96%B4%EB%A0%A4%EC%9B%80)
+- [useMemo로 캐싱하기](https://github.com/h-alex2/webgame-react/tree/master/8.%EC%A7%80%EB%A2%B0%EC%B0%BE%EA%B8%B0#usememo%EB%A1%9C-%EC%BA%90%EC%8B%B1%ED%95%98%EA%B8%B0)
