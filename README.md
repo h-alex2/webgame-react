@@ -72,3 +72,26 @@ Creating a simple web game with React.
 - [createContext](https://github.com/h-alex2/webgame-react/tree/master/8.%EC%A7%80%EB%A2%B0%EC%B0%BE%EA%B8%B0#createcontext)
 - [context API 성능최적화 어려움](https://github.com/h-alex2/webgame-react/tree/master/8.%EC%A7%80%EB%A2%B0%EC%B0%BE%EA%B8%B0#context-api-%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94-%EC%96%B4%EB%A0%A4%EC%9B%80)
 - [useMemo로 캐싱하기](https://github.com/h-alex2/webgame-react/tree/master/8.%EC%A7%80%EB%A2%B0%EC%B0%BE%EA%B8%B0#usememo%EB%A1%9C-%EC%BA%90%EC%8B%B1%ED%95%98%EA%B8%B0)
+
+## 리액트 라우터 정리
+### v5
+- [React router
+](https://github.com/h-alex2/webgame-react/tree/master/9.%20%EA%B2%8C%EC%9E%84%EB%AA%A8%EC%9D%8C#react-router)
+- [Hash Router](https://github.com/h-alex2/webgame-react/tree/master/9.%20%EA%B2%8C%EC%9E%84%EB%AA%A8%EC%9D%8C#hash-router)
+- [동적 라우트, params, withRouter](https://github.com/h-alex2/webgame-react/tree/master/9.%20%EA%B2%8C%EC%9E%84%EB%AA%A8%EC%9D%8C#%EB%8F%99%EC%A0%81-%EB%9D%BC%EC%9A%B0%ED%8A%B8-params-withrouter)
+- [history.pushState();](https://github.com/h-alex2/webgame-react/tree/master/9.%20%EA%B2%8C%EC%9E%84%EB%AA%A8%EC%9D%8C#historypushstate)
+- [쿼리스트링](https://github.com/h-alex2/webgame-react/tree/master/9.%20%EA%B2%8C%EC%9E%84%EB%AA%A8%EC%9D%8C#%EC%BF%BC%EB%A6%AC%EC%8A%A4%ED%8A%B8%EB%A7%81)
+- [URLSearchParams 쿼리스트링 데이터 활용하기](https://github.com/h-alex2/webgame-react/tree/master/9.%20%EA%B2%8C%EC%9E%84%EB%AA%A8%EC%9D%8C#urlsearchparams-%EC%BF%BC%EB%A6%AC%EC%8A%A4%ED%8A%B8%EB%A7%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-%ED%99%9C%EC%9A%A9%ED%95%98%EA%B8%B0)
+- [props 넘기기](https://github.com/h-alex2/webgame-react/tree/master/9.%20%EA%B2%8C%EC%9E%84%EB%AA%A8%EC%9D%8C#props-%EB%84%98%EA%B8%B0%EA%B8%B0)
+- [하나는 동적 라우팅이고 하나는 주소가 고정일 때 , Switch](https://github.com/h-alex2/webgame-react/tree/master/9.%20%EA%B2%8C%EC%9E%84%EB%AA%A8%EC%9D%8C#%ED%95%98%EB%82%98%EB%8A%94-%EB%8F%99%EC%A0%81-%EB%9D%BC%EC%9A%B0%ED%8C%85%EC%9D%B4%EA%B3%A0-%ED%95%98%EB%82%98%EB%8A%94-%EC%A3%BC%EC%86%8C%EA%B0%80-%EA%B3%A0%EC%A0%95%EC%9D%BC-%EB%95%8C--switch)
+- [exact](https://github.com/h-alex2/webgame-react/tree/master/9.%20%EA%B2%8C%EC%9E%84%EB%AA%A8%EC%9D%8C#exact)
+
+### v6
+- npm outdated
+- Switch -> Routes
+- exact 없어짐
+- component -> element, render 사라짐
+- [params 없어짐](https://github.com/h-alex2/webgame-react/tree/master/9.%20%EA%B2%8C%EC%9E%84%EB%AA%A8%EC%9D%8C#params-%EC%97%86%EC%96%B4%EC%A7%90)
+- [history.push or history.replace -> useNavigate](https://github.com/h-alex2/webgame-react/tree/master/9.%20%EA%B2%8C%EC%9E%84%EB%AA%A8%EC%9D%8C#historypush-or-historyreplace---usenavigate)
+- [뒤로가기 : history.goback() -> navigate(-1)](https://github.com/h-alex2/webgame-react/tree/master/9.%20%EA%B2%8C%EC%9E%84%EB%AA%A8%EC%9D%8C#%EB%92%A4%EB%A1%9C%EA%B0%80%EA%B8%B0--historygoback---navigate-1)
+- [codemod](https://github.com/h-alex2/webgame-react/tree/master/9.%20%EA%B2%8C%EC%9E%84%EB%AA%A8%EC%9D%8C#codemod)
